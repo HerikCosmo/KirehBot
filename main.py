@@ -1,5 +1,5 @@
 from twitter import Twitter
 
-teste = Twitter()
-teste.tweet('oioioi')
+twitter = Twitter()
+twitter.search_tweet('#herikbot')
     
