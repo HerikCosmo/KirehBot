@@ -17,5 +17,7 @@ class Auth:
         self.auth.set_access_token(TK, TS)
         self.api = tweepy.API(self.auth)
 
+    if __name__ == '__main__':
+        print('Executar apenas no main')
         
 

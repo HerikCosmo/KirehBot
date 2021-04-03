@@ -1,10 +1,6 @@
 from twitter import Twitter
 import keyboard
-from time import sleep
 twitter = Twitter()
-
-
-
 
 def menu():
     print('='*10)
@@ -23,22 +19,8 @@ def funcoes(opcao):
     elif(opcao == 3):
         twitter.reply_tweet(input('Search tweet to reply: '))
     elif(opcao == 4):
-        print('Modo Automático ativado. Pressione "E" para desativar')
         while True:
-            try:
-                twitter.reply_tweet_with_image('#herikbot', 'teste.jpeg')
-                
-                if keyboard.is_pressed('e'):
-                    break
-                
-            except: 
-                break
+            twitter.reply_tweet_with_image('#herikbot')
             
         
 menu()
-#twitter.reply_tweet_with_image('#herikbot', 'teste.jpeg')
-#twitter.image('teste.jpeg')
-# while True:
-#     twitter.reply_tweet_with_image('#herikbot', 'teste.jpeg')
-#     sleep(5)
-    
