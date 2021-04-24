@@ -20,7 +20,7 @@ def funcoes(opcao):
         twitter.reply_tweet(input('Search tweet to reply: '))
     elif(opcao == 4):
         while True:
-            twitter.reply_tweet_with_image('#herikbot')
+            twitter.reply_tweet_with_image('#kirehbot')
             
         
 menu()
