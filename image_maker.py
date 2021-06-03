@@ -24,7 +24,7 @@ class ImageMaker:
         base.save('result.jpg', quality=95)
     
     def get_text(self, text):
-        return text.replace('#herikbot', '').strip()
+        return text.replace('#kirehbot', '').strip()
     
     def random_character(self):
         characters = ['luffy.png', 'zoro.png', 'nami.png', 'usopp.png', 'sanji.png', 'chopper.png', 'robin.png', 'franky.png', 'brook.png', 'jinbe.png']

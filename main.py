@@ -4,7 +4,7 @@ twitter = Twitter()
 
 def menu():
     print('='*10)
-    print('BEM VINDO AO HERIK BOT')
+    print('BEM VINDO AO KIREH BOT')
     print('='*10)
     print('Escolha uma opção:')
     print('1. Tweetar\n2. Pesquisar Tweets\n3. Responder Tweet\n4. Automatico')
